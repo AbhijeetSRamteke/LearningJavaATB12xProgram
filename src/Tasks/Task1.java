@@ -1,7 +1,5 @@
 package Tasks;
 
-import java.sql.SQLOutput;
-
 public class Task1
 {
     //Table of 5 you need to print,  (only use the printF)
