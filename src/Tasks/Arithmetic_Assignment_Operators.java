@@ -5,7 +5,7 @@ public class Arithmetic_Assignment_Operators
     public static void main(String[] args)
     {
         int a = 10;
-        int b = 3;
+        int b = 5;
 
         // Addition (+)
         int sum = a + b;
