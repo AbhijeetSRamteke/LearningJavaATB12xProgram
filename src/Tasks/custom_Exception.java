@@ -41,6 +41,6 @@ public class custom_Exception
         {
             super(message);
         }
-    }
+    } //
 
 }
