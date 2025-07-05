@@ -4,7 +4,7 @@ public class custom_Exception
 {
     public static void main(String[] args)
     {
-        System.out.println("--- Testing with age 20 ---");
+        System.out.println("---age 20---");
         try
         {
             validateAge(20);
@@ -14,7 +14,7 @@ public class custom_Exception
             System.err.println("Error: " + e.getMessage());
         }
 
-        System.out.println("\n--- Testing with age 15 ---");
+        System.out.println("\n---age 15---");
         try
         {
             validateAge(15);
@@ -32,7 +32,7 @@ public class custom_Exception
         }
         else
         {
-            System.out.println("Age " + age + " is valid. Welcome!");
+            System.out.println("Age " + age + " is valid.");
         }
     }
     public static class InvalidAgeException extends Exception
